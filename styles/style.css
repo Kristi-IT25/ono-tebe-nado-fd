@@ -90,7 +90,7 @@ p {
   width: 1100px;
   min-height: 757px;
   margin-bottom: 180px;
-  padding: 165px 50px 50px;
+  /*padding: 165px 50px 50px;*/
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -139,6 +139,7 @@ p {
 }
 
 .cover__description {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -211,12 +212,6 @@ p {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.card__text-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .card__title {
   padding-top: 47px;
   padding-right: 40px;
@@ -227,9 +222,11 @@ p {
   text-decoration: underline;
   text-underline-position: under;
   text-transform: uppercase;
+  position: relative;
 }
 
 .card__text {
+  position: relative;
   padding-right: 40px;
   padding-bottom: 48px;
   padding-left: 40px;
